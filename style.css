@@ -38,10 +38,12 @@ a {
 nav ul {
     list-style-type:none;
     padding: 0;
+    display: flex;
 }
 
 nav li a {
     background-color:#2D99A4;
+    padding:1rem 2rem;
 }
 
 nav a.active {
