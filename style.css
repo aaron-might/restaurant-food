@@ -35,3 +35,20 @@ a {
     color:#026E78;
     font-weight: bold;
 }
+nav ul {
+    list-style-type:none;
+    padding: 0;
+}
+
+nav li a {
+    background-color:#2D99A4;
+}
+
+nav a.active {
+    background-color:#fff;
+    background-color:#026e78;
+}
+nav a.highlight {
+    background-color:#026e78;
+    color:#fff;
+}
