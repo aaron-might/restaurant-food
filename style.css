@@ -21,11 +21,17 @@ a {
 }
 
 .container {
+    display: flex;
     width: 100%;
     max-width: 1000px;
-    margin:0 auto;   
+    margin:0 auto;  
+    flex-direction: column; 
     padding: 1rem;
 }
+nav {
+    padding:0.5rem 0;
+}
+
 .pre-nav {
     font-size:1.7rem;
     display:flex;
@@ -65,4 +71,11 @@ nav a.highlight {
 
 nav a:hover{
     opacity: 0.9;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: ;
 }
