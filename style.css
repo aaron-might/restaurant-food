@@ -79,6 +79,7 @@ nav a:hover{
     display: flex;
     flex: 1;
     flex-direction: column;
+    align-items: flex-start;
     /* justify-content:center; */
     /* align-items:center; */
     margin-top: 5rem;
@@ -90,6 +91,13 @@ nav a:hover{
     padding:1rem;
     font-weight:200;
 }
-.content a {
-
+.white-link {
+    background-color:#fff;
+    color:#2d99a4;
+    padding:1rem;
+}
+.teal-link {
+    background-color:#2d99a4;
+    color:#fff;
+    /* padding:1rem; */ 
 }
