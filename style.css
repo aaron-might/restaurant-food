@@ -76,9 +76,9 @@ nav a:hover{
 
 .content {
     font-size:2rem;
-    /* display: flex; */
+    display: flex;
     flex: 1;
-    /* flex-direction: column; */
+    flex-direction: column;
     /* justify-content:center; */
     /* align-items:center; */
     margin-top: 5rem;
@@ -88,6 +88,8 @@ nav a:hover{
     color:#fff;
     display:inline-block;
     padding:1rem;
-
+    font-weight:200;
+}
+.content a {
 
 }
