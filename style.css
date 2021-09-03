@@ -12,6 +12,7 @@ body {
 header {
     background-image:url('bg.png');
     background-size: cover;
+    background-position:center center;
     min-height: 100vh;
 }
 
@@ -36,15 +37,19 @@ nav {
 .pre-nav {
     font-size:1.7rem;
     display:flex;
+    flex-wrap: wrap;
     justify-content:space-between;
+    align-items:center;
 }
 .logo{
     color:#026E78;
     font-weight: bold;
+    font-size: 2rem;
 }
 nav ul {
     list-style-type:none;
     padding: 0;
+    flex-wrap: wrap;
     display: flex;
     /* align-items: center; */
     /* justify-content:space-between; */
@@ -99,5 +104,19 @@ nav a:hover{
 .teal-link {
     background-color:#2d99a4;
     color:#fff;
-    /* padding:1rem; */ 
+    margin-top:1rem;
+    padding:1rem; 
+}
+
+@media screen and (max-width: 768px){
+    pre-nav {
+        flex-direction: column;
+        justify-content:center;
+    }
+    nav {
+
+    }
+    .content{
+        font-size:1.5rem;
+    }
 }
