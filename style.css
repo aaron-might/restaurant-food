@@ -14,3 +14,24 @@ header {
     background-size: cover;
     min-height: 100vh;
 }
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin:0 auto;   
+    padding: 1rem;
+}
+.pre-nav {
+    font-size:1.7rem;
+    display:flex;
+    justify-content:space-between;
+}
+.logo{
+    color:#026E78;
+    font-weight: bold;
+}
