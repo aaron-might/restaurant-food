@@ -75,10 +75,19 @@ nav a:hover{
 }
 
 .content {
-    background-color:purple;
-    display: flex;
+    font-size:2rem;
+    /* display: flex; */
     flex: 1;
-    flex-direction: column;
-    justify-content:center;
+    /* flex-direction: column; */
+    /* justify-content:center; */
     /* align-items:center; */
+    margin-top: 5rem;
+}
+.content h1 {
+    background-color:#026e78;
+    color:#fff;
+    display:inline-block;
+    padding:1rem;
+
+
 }
