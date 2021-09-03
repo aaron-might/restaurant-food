@@ -114,7 +114,7 @@ nav a:hover{
         justify-content:center;
     }
     nav {
-
+        /* flex-direction: column; */
     }
     .content{
         font-size:1.5rem;
